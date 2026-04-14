@@ -1,0 +1,18 @@
+======================================================================
+send_command('show version') returned value (verbatim):
+======================================================================
+  --------------------- present-side --------------------- 
+F220   Version 01.12(00)[0]00.00.0 [2023/07/26 15:00]
+
+  ---------------------- other-side ---------------------- 
+F220   Version 01.12(00)[0]00.00.0 [2023/07/26 15:00]
+
+
+
+======================================================================
+first line                     : '  --------------------- present-side --------------------- '
+starts with 'show version'?    : False
+contains 'TEST-HOST#'?         : False
+length                         : 231 chars
+======================================================================
+raw channel data captured at   : I:\netmiko\.vscode\followup_tests\strip_command_proof\session_log_ssh.log

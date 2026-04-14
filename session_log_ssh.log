@@ -1,0 +1,28 @@
+
+TEST-HOST>
+TEST-HOST>
+TEST-HOST>
+TEST-HOST>enable
+
+password:
+<WARNING> weak enable password: contain at least 8 characters
+
+
+
+TEST-HOST#
+TEST-HOST#
+TEST-HOST#no more
+more : off
+
+TEST-HOST#
+TEST-HOST#show version
+  --------------------- present-side --------------------- 
+F220   Version 01.12(00)[0]00.00.0 [2023/07/26 15:00]
+
+  ---------------------- other-side ---------------------- 
+F220   Version 01.12(00)[0]00.00.0 [2023/07/26 15:00]
+
+
+
+TEST-HOST#
+TEST-HOST#exit
